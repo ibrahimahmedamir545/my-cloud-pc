@@ -1,6 +1,2 @@
-{
-  "name": "My Desktop Codespace",
-  "postStartCommand": "docker start desktop || sudo DEBIAN_FRONTEND=noninteractive docker run -d --name=desktop -e PUID=1000 -e PGID=1000 -p 3000:3000 --shm-size=\"2gb\" ghcr.io/linuxserver/webtop:ubuntu-xfce"
-}
 
 
